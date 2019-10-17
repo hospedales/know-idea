@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Timers {
+    display: flex;
+    justify-content: center;
+  }
+  @media (max-width: 900px) {
+    .Timers {
+      flex-direction: column;
+  
+      align-items: center;
+    }
+  }
+  
+  .Countdown {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #FFFF00;
+    border-radius: 4px;
+    padding: 20px;
+    background-color:#343434;
+    box-shadow: 0 3px 6px rgb(12, 12, 12);
+    text-align: center;
+  }
+  .Countdown {
+    padding-top: 10px;
+  }
+  
+  .Countdown-header {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #202b33;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #106ba3;
+  }
+  .Countdown-display {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .Countdown-display button {
+    margin: 0 15px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    padding: 4px 16px;
+    color: #ffffff;
+  
+    font-size: 16px;
+  }
+  .Countdown-display button:hover {
+    background-color: #106ba3;
+  }
+  .Countdown-label {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .Countdown-time {
+    font-size: 36px;
+    margin: 5px 0;
+  }

@@ -1,0 +1,19 @@
+[
+	{
+		"id": "12341",
+		"name": "Andrea",
+		"init": true
+	}, {
+		"id": "12342",
+		"name": "Magdalena",
+		"init": true
+	}, {
+		"id": "12343",
+		"name": "Michael",
+		"init": true
+	}, {
+		"id": "12344",
+		"name": "Foo",
+		"init": true
+	}
+]

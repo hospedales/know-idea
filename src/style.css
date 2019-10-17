@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans&display=swap');
+body,
+pre {
+	background-color: rgb(0,150,255);
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+	border-color: #fff;
+}
+
+.gsap-btn {
+	background-color: #343434;
+	color: #FFFF00;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.gsap-btn:hover,
+.gsap-btn:active,
+.gsap-btn:focus {
+	background-color: #FFFF00;
+	color: #343434;
+}
+
+.submit-btn {
+	background-color: #FFFF00;
+	color: #343434;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.submit-btn:hover,
+.submit-btn:active,
+.submit-btn:focus {
+	background-color: #00FF00;
+	color: #343434;
+}
+
+.card-container {
+	transform: translateY(25px);
+	opacity: 0;
+	visibility: hidden;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.transition-card {
+	background-color: #343434;
+	color: #FFFF00;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+.transition-card h4 {
+	margin: 10px 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+button.close {
+	color: #fff;
+	opacity: 1;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+
+button.close:hover,
+button.close:focus {
+	color: #FFFF00;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 900;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .Timers {
+    display: flex;
+    justify-content: center;
+  }
+
+  .Countdown {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #FFFF00;
+    border-radius: 4px;
+    padding: 20px;
+    background-color:#343434;
+    box-shadow: 0 3px 6px rgb(12, 12, 12);
+    text-align: center;
+  }
+  .Countdown {
+    padding-top: 10px;
+  }
+  
+  .Countdown-header {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  button {
+    background-color: #202b33;
+    border: solid 1px transparent;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 16px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #106ba3;
+  }
+  .Countdown-display {
+    margin-top: 5px;
+    margin-bottom: 20px;
+  }
+  .Countdown-display button {
+    margin: 0 15px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    padding: 4px 16px;
+    color: #ffffff;
+  
+    font-size: 16px;
+  }
+  .Countdown-display button:hover {
+    background-color: #106ba3;
+  }
+  .Countdown-label {
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  .Countdown-time {
+    font-size: 36px;
+    margin: 5px 0;
+  }
+  .up-arrow {
+	  height: auto;
+	  width: 15px;
+  }
+  .dwn-arrow {
+	height: auto;
+	width: 15px;
+}
+  @media (max-width: 900px) {
+    .Timers {
+      flex-direction: column;
+  
+      align-items: center;
+    }
+  }
